@@ -1,0 +1,34 @@
+<resources>
+    <string-array name="axis_xyz">
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>Mag.</item>
+    </string-array>
+    <string-array name="axis_x">
+        <item>X</item>
+    </string-array>
+    <string name="app_name">USBMag</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_num">Num</string>
+    <string name="nav_plot">Plot</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="nav_setup">Setup</string>
+    <string name="usb_connected">Connected</string>
+    <string name="usb_dis">Disconnected</string>
+    <string name="home">Home</string>
+    <string name="calToField">Calibrate</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="file">File</string>
+    <string name="dynamic">Dynamic Range</string>
+    <string name="lowNoise">Low Noise</string>
+    <string name="adcFast">ADC Fast</string>
+    <string name="adcNormal">ADC Normal</string>
+    <string name="one_axi">Single Axis</string>
+    <string name="three_axi">Three Axis</string>
+    <string name="send">Send</string>
+    <string name="resume">Resume</string>
+</resources>

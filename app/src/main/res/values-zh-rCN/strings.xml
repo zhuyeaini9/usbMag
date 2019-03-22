@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USBMag</string>
+    <string name="hello_blank_fragment">hello</string>
+    <string name="nav_num">数字</string>
+    <string name="nav_plot">图表</string>
+    <string name="nav_terminal">终端</string>
+    <string name="nav_setup">配置</string>
+    <string name="usb_connected">已连接</string>
+    <string name="usb_dis">已断开</string>
+    <string name="home">主面板</string>
+    <string name="calToField">定标</string>
+    <string name="start">开始</string>
+    <string name="pause">暂停</string>
+    <string name="file">导出数据</string>
+    <string name="dynamic">动态范围</string>
+    <string name="lowNoise">低噪声</string>
+    <string name="adcFast">快速模数转换</string>
+    <string name="adcNormal">正常模数转换</string>
+    <string name="one_axi">单轴</string>
+    <string name="three_axi">三轴</string>
+    <string name="send">发送</string>
+    <string name="resume">恢复</string>
+</resources>

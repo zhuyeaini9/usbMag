@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <Button
+        android:id="@+id/startBut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/start"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/zhu_button_style"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintWidth_percent="0.35"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.05"/>
+
+    <Button
+        android:id="@+id/pauseResBut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/pause"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/zhu_button_style"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintWidth_percent="0.35"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.95"/>
+
+    <Button
+        android:id="@+id/fileBut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/file"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/zhu_button_style"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintRight_toRightOf="@id/pauseResBut"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintWidth_percent="0.35"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintVertical_bias="0.90" />
+
+    <RadioGroup
+        android:id = "@+id/pgRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/startBut"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35">
+
+        <RadioButton android:id="@+id/dynamicRadio"
+            android:textSize="20dp"
+            android:background="@drawable/zhu_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dynamic" />
+
+        <RadioButton
+            android:id="@+id/lowNoiseRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/zhu_button_style"
+            android:text="@string/lowNoise"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id = "@+id/adcRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@id/pauseResBut"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35">
+
+        <RadioButton android:id="@+id/adcFastRadio"
+            android:textSize="20dp"
+            android:background="@drawable/zhu_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adcFast" />
+
+        <RadioButton
+            android:id="@+id/adcNormalRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/zhu_button_style"
+            android:text="@string/adcNormal"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

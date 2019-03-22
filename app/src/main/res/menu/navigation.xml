@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/num"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_calToField"
+        android:icon="@drawable/plot"
+        android:title="@string/calToField" />
+
+    <item
+        android:id="@+id/navigation_terminal"
+        android:icon="@drawable/ic_terminal"
+        android:title="@string/nav_terminal" />
+
+    <item
+        android:id="@+id/navigation_setup"
+        android:icon="@drawable/ic_setup"
+        android:title="@string/nav_setup" />
+
+</menu>
